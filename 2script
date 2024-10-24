@@ -2,5 +2,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ashleyslvm/newscript/
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
         loadstring(game:HttpGet(Execute))()
-    end
-end
